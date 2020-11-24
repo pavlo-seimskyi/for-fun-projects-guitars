@@ -7,7 +7,7 @@ This is done in the notebook `data_and_training`. The data looks like this:
 ![image](/images/test1.jpg)
 
 ## Step 2: Prepare the data
-To Using 150 downloaded images, To prepare images for feeding into the model, we need to resize them first. After trying several approaches, `RandomResizedCrop` turned out to work best. After resizing the images to 128x128 px format, I also used data augmentation that performs random changes in contrast of the pictures, flipping them horizontally and vertically, and expanding/squishing them. All that is fairly easy to perform with fastai. This is how one of the data samples looks after augmentation and just before feeding into the model:
+150 images were  downloadeded. To prepare images for feeding into the model, we need to resize them first. After trying several approaches, `RandomResizedCrop` turned out to work best. After resizing the images to 128x128 px format, I also used data augmentation that performs random changes in contrast of the pictures, flipping them horizontally and vertically, and expanding/squishing them. All that is fairly easy to perform with fastai. This is how one of the data samples looks after augmentation and just before feeding into the model:
 
 ![image](/images/augmentation.jpg)
 
