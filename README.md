@@ -15,6 +15,7 @@ To Using 150 downloaded images, To prepare images for feeding into the model, we
 I went for the ResNet34 model that was pretrained on ImageNet. Accuracy of 92% was achieved just after 9 epochs and roughly 1 minute of training!
 
 ![image](/images/confusion.jpg)
+
 The model was saved for future inference as `export.pkl` file.
 
 ## Step 4: Deployment
