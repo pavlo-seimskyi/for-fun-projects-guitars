@@ -1,5 +1,5 @@
 # Guitars
-This is a just-for-fun-project. Is your guitar Stratocaster or Telecaster? Find out here.
+This is a just-for-fun-project. Is your guitar Stratocaster or Telecaster? Let's use Deep Learning to find out.
 
 ## Step 1: Scrape the Bing Image Search engine to get data
 This is done in the notebook `data_and_training`. The data looks like this:
